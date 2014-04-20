@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+#header {
+	position: fixed;
+	width: 100%; 
+	text-align: right;
+	padding-top: 15px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.group1 {
+	display: inline-block;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	padding: 5px;
+	padding-top: 10px;
+	text-decoration: none;
+}
+
+#application-access {
+	position: relative;
+	width: 15px;
+	height: 15px;
+	padding-right: 30px;
+}
+
+#grid {
+	position: absolute;
+	display: inline-block;
+	width: 22px;
+	height: auto;
+	top: -11px;
+}
+
+.button:hover {
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.button {
+	height: 15px;
+	width: 60px;
+	border: none;
+	border-radius: 2px;
+	display: inline-block;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 35px;
+	background-color: #4387fd;
+	color: #ffffff;
+}
+
+.google {
+	width: 265px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 190px;
+}
+
+input {
+  display: block;
+  background: url(images/microphone.png) no-repeat right center;
+  border: 1px solid #c6c9cc;
+  background-size: 22px 23px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #fff;
+  margin: 25px auto;
+  padding: 6px;
+  width: 570px;
+}
+
+.buttons {
+	display: inline-block;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+	height: 30px;
+	margin: 7px;
+	padding: 0 8px;
+	margin-top: -9px;
+
+}
+
+#mid-section2 {
+	position: fixed;
+	width: 100%; 
+	text-align: center;
+}
+
+#footer {
+	display: block;
+	bottom: 0;
+	height: 40px;
+	position: fixed;
+	width: 100%;
+	margin: 0 auto;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+
+.left {
+	margin-left: 10px;
+	float: left;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	padding: 10px;
+	padding-top: 15px;
+	color: #696969;
+}
+
+.right {
+	margin-right: 10px;
+	float: right;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	padding: 10px;
+	padding-top: 15px;
+	color: #696969;
+	padding-right: 20px;
+}
